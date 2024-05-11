@@ -19,7 +19,6 @@ viskositas_aquadest = st.number_input('masukkan viskositas aquadest')
 st.write('the second number is',viskositas_aquadest)
 
 st.image('tabel viskositas.jpg')
-if tabel_viskositas_jpg is not None:
    img_array=np.array('image') 
 
 viskositas = 0
