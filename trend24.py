@@ -27,3 +27,5 @@ viskositas = 0
 if X̅laju_alir_air != 0 and densitas_air != 0:
     viskositas = (densitas_sampel * X̅laju_alir_sampel) / (densitas_air * X̅laju_alir_air) * viskositas_aquadest
     st.text(f"Nilai Viskositas sampel adalah : ({densitas_sampel} * {X̅laju_alir_sampel} / {densitas_air} * {X̅laju_alir_air}) * {viskositas_aquadest} = {viskositas}")
+
+st.image('zahra.jpeg',caption='zahra','thalita.jpeg',ception='thalita','ardil.jpeg',caption='ardillah','lucky.jpeg',caption='lucky'
