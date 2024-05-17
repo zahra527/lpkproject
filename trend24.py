@@ -5,6 +5,7 @@ import pandas as pd
 
 #tampilan konten aplikasi
 tab1,tab2,tab3=st.tabs(['HALAMAN UTAMA','RUMUS','TABEL VISKOSI'])
+st.image('lpk.png')
 
 with tab1:
     st.header('Aplikasi Penetapan Kekentalan Metode Laju Alir Oswald/Engler', divider='rainbow')
